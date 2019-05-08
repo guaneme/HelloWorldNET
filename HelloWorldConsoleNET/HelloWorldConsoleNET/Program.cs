@@ -10,7 +10,7 @@ namespace HelloWorldConsoleNET
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello .NET world.");
+            Console.WriteLine("Hello .NET world => " + DateTime.Now.ToString());
         }
     }
 }
