@@ -17,5 +17,11 @@ namespace HelloWorldConsoleTestsNET
         {
             Assert.Inconclusive();
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+            Assert.Fail();
+        }
     }
 }
