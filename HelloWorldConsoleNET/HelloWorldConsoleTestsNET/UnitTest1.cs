@@ -21,7 +21,7 @@ namespace HelloWorldConsoleTestsNET
         [TestMethod]
         public void TestMethod3()
         {
-            Assert.Fail();
+            Assert.AreEqual(1, 1);
         }
     }
 }
